@@ -1,2 +1,5 @@
 exportPattern("^[[:alpha:]]+")
-
+importFrom(DescTools,"%like%")
+export("%!in%")
+export("%!like%")
+export("%like%")
