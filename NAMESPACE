@@ -1,4 +1,0 @@
-exportPattern("^[[:alpha:]]+")
-export("%notin%")
-export("%notlike%")
-export("%like%")
