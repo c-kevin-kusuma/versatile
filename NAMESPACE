@@ -1,5 +1,4 @@
 exportPattern("^[[:alpha:]]+")
-importFrom(DescTools,"%like%")
-export("%!in%")
-export("%!like%")
+export("%notin%")
+export("%notlike%")
 export("%like%")

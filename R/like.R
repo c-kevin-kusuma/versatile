@@ -1,6 +1,8 @@
-#' Remove a certain value
+#' The straight copy of the DescTools '%like%' operator
 #'
-#' This function is a straight copy of the '%like%' function from 'DescTools' package.
+#' This function is a straight copy of the DescTools '%like%' operator.
 #' @export
 
-`%like%` <- DescTools::`%like%`
+`%like%` <- function(){
+  DescTools::`%like%`
+}

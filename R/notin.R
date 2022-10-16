@@ -3,4 +3,6 @@
 #' This function check for the opposite of the base '%in%' operator.
 #' @export
 
-`%!in%` <- Negate(`%in%`)
+`%notin%` <- function(x,y){
+  Negate(`%in%`)
+}
