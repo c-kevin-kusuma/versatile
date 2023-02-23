@@ -5,7 +5,7 @@
 #' @param int An integer that specifies the number of character.
 #' @export
 
-left_str <- function(x, y){
-  x <- stringr::str_sub(x, 1, y)
+left_str <- function(value, int){
+  x <- stringr::str_sub(value, 1, int)
   return(x)
 }
