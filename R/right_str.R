@@ -6,6 +6,6 @@
 #' @export
 
 right_str <- function(value, int){
-  x <- stringr::str_sub(x, -(y+1), -1)
+  x <- stringr::str_sub(value, -int, -1)
   return(x)
 }
